@@ -1,0 +1,30 @@
+.taskboard {
+    margin-top: 4rem;
+}
+
+.taskboard header {
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--gray-500);
+
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.taskboard header div span {
+    background: var(--gray-400);
+    padding: 0.125rem 0.5rem;
+    border-radius: 50%;
+}
+
+.titletask {
+    color: var(--blue);
+    font-size: 0.875rem;
+    padding-right: 0.5rem;
+}
+
+.titleconcluded {
+    color: var(--purple);
+    font-size: 0.875rem;
+    padding-right: 0.5rem;
+}
